@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/let_the_game_begin"
+        android:layout_marginBottom="100dp"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+
+    <GridLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:columnCount="3"
+        android:rowCount="6"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/btn3"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/btn6"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/btn9"
+            android:onClick="check"/>
+
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>
